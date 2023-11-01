@@ -1,0 +1,11 @@
+{
+  "name": "login-lecture",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Song da young <116068642+butcreep@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
