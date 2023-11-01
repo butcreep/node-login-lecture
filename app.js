@@ -2,7 +2,6 @@ const express = require("express");
 const app = express();
 
 //앱세팅
-
 app.set("views", "./views");
 app.set("view engine", "ejs");
 
