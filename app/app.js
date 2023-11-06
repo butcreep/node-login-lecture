@@ -1,14 +1,12 @@
 "use strict";
 const express = require("express");
 const app = express();
-const PORT = 3000;
+
 //앱세팅
 app.set("views", "./views");
 app.set("view engine", "ejs");
 
-const home = require("./routes/home");
+const home = require("../routes/home");
 app.use("/", home);
 
-app.listen(PORT, function () {
-  console.log("서버가동");
-});
+module.exports = app;
